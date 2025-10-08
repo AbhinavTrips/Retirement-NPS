@@ -10,6 +10,13 @@ Adjust the parameters below to see how **NPS** and **Mutual Fund** investments c
 for long-term retirement planning.  
 The model assumes systematic investment for the pre-retirement phase and systematic withdrawal post-retirement.
 """)
+st.markdown("""
+#### **Notes:**
+1. When NPS matures, max 60% can be withdrawn and at least 40% must be converted to annuity.
+2. This calculator assumes that the 60% withdrawn is invested in Equity Mutual Funds.
+3. The income from Annuity is taxed at income tax slab rates.
+4. Post-retirement LTCG tax is taken as 5% because SWP withdrawals consist of both principal and gain, not all gain.
+""")
 
 # ---------------------- Inputs -----------------------
 st.sidebar.header("🔧 Input Parameters")
